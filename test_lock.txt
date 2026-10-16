@@ -1,0 +1,94 @@
+[2026-10-13 17:35:50.985] [others] [info] Build release 0.9.1, version 0.9.1+release.4, revision 877dc5a16ab915ec3c01ff601c6cf79cde8726c8, steam appid 3058630, built on Aug 28 2026 13:19:36
+[2026-10-13 17:35:50.986] [others] [info] TimeDateStamp: 0x6A9171AE (2026-08-28 11:31:58 UTC)
+[2026-10-13 17:35:50.987] [others] [info] Deleted 1 old dump file(s)
+[2026-10-13 17:35:50.987] [others] [info] DbgHelp path: C:\Windows\SYSTEM32\dbghelp.dll
+[2026-10-13 17:35:50.987] [others] [info] DbgHelp version: 6.2.26100.5074
+[2026-10-13 17:35:50.987] [others] [info] Symbol search path: .;C:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\AssettoCorsaEVOServer.exe Base: 0x7FF7491D0000 Size: 40218624
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\SYSTEM32\ntdll.dll Base: 0x7FFEE6220000 Size: 2519040
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\KERNEL32.DLL Base: 0x7FFEE4B20000 Size: 823296
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\KERNELBASE.dll Base: 0x7FFEE3A80000 Size: 4124672
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\CRYPT32.dll Base: 0x7FFEE3760000 Size: 1536000
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\ucrtbase.dll Base: 0x7FFEE34A0000 Size: 1355776
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\WS2_32.dll Base: 0x7FFEE41C0000 Size: 475136
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\RPCRT4.dll Base: 0x7FFEE49F0000 Size: 1146880
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\SHLWAPI.dll Base: 0x7FFEE4E00000 Size: 417792
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\SETUPAPI.dll Base: 0x7FFEE4F80000 Size: 4759552
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\steam_api64.dll Base: 0x7FFEBB170000 Size: 315392
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\libssl-3-x64.dll Base: 0x7FFE2AA30000 Size: 1339392
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\msvcrt.dll Base: 0x7FFEE45D0000 Size: 692224
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\libcrypto-3-x64.dll Base: 0x7FFE29D80000 Size: 7335936
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\ADVAPI32.dll Base: 0x7FFEE4C90000 Size: 737280
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\sechost.dll Base: 0x7FFEE4D50000 Size: 679936
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\USER32.dll Base: 0x7FFEE6010000 Size: 1855488
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\SHELL32.dll Base: 0x7FFEE5780000 Size: 7680000
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\SYSTEM32\HID.DLL Base: 0x7FFEE17C0000 Size: 61440
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\win32u.dll Base: 0x7FFEE3A50000 Size: 159744
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\msvcp_win.dll Base: 0x7FFEE3F10000 Size: 667648
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\GDI32.dll Base: 0x7FFEE5750000 Size: 176128
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\SYSTEM32\VCRUNTIME140.dll Base: 0x7FFEC48B0000 Size: 180224
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\wintypes.dll Base: 0x7FFEE35F0000 Size: 1482752
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\gdi32full.dll Base: 0x7FFEE3370000 Size: 1228800
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\SYSTEM32\XINPUT1_4.dll Base: 0x7FFEC5E70000 Size: 114688
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\SYSTEM32\DINPUT8.dll Base: 0x7FFEA3CA0000 Size: 307200
+[2026-10-13 17:35:50.987] [others] [info] Module: C:\Windows\System32\combase.dll Base: 0x7FFEE4240000 Size: 3690496
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\ole32.dll Base: 0x7FFEE4010000 Size: 1667072
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\VERSION.dll Base: 0x7FFEDDA50000 Size: 45056
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\OLEAUT32.dll Base: 0x7FFEE4830000 Size: 876544
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\WINTRUST.dll Base: 0x7FFEE3E80000 Size: 524288
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\imagehlp.dll Base: 0x7FFEE5FE0000 Size: 131072
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\DEVOBJ.dll Base: 0x7FFEE2F40000 Size: 184320
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\cfgmgr32.dll Base: 0x7FFEE2F70000 Size: 356352
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\MSVCP140.dll Base: 0x7FFEC4BA0000 Size: 643072
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\WINMM.dll Base: 0x7FFED6CD0000 Size: 217088
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\VCRUNTIME140_1.dll Base: 0x7FFEC5160000 Size: 49152
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\bcrypt.dll Base: 0x7FFEE3260000 Size: 172032
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\IPHLPAPI.DLL Base: 0x7FFEE1AD0000 Size: 212992
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\dbghelp.dll Base: 0x7FFECF020000 Size: 2367488
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\dbgcore.DLL Base: 0x7FFEBA820000 Size: 245760
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\IMM32.DLL Base: 0x7FFEE47F0000 Size: 200704
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\MSASN1.dll Base: 0x7FFEE2A80000 Size: 77824
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\inputhost.dll Base: 0x7FFEC6FF0000 Size: 1986560
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\CoreMessaging.dll Base: 0x7FFEE0130000 Size: 1208320
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\bcryptPrimitives.dll Base: 0x7FFEE39A0000 Size: 675840
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\CRYPTBASE.DLL Base: 0x7FFEE2880000 Size: 49152
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\windows.storage.dll Base: 0x7FFEE0F50000 Size: 8773632
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\System32\SHCORE.dll Base: 0x7FFEE5410000 Size: 1003520
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\profapi.dll Base: 0x7FFEE3290000 Size: 167936
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\iertutil.dll Base: 0x7FFEC88F0000 Size: 2904064
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\srvcli.dll Base: 0x7FFEC88C0000 Size: 167936
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\netutils.dll Base: 0x7FFEE1AC0000 Size: 53248
+[2026-10-13 17:35:50.988] [others] [info] Module: C:\Windows\SYSTEM32\kernel.appcore.dll Base: 0x7FFEE20E0000 Size: 110592
+[2026-10-13 17:35:50.995] [network] [info] Backend URL: strategy always_dev, config release
+[2026-10-13 17:35:50.996] [others] [error] Exception thrown: Failed to find file: "content\\cars\\common_assets\\parts\\tyres\\tyre_compound_textures.table"
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12F150F (RVA:0x140FDF7:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12B9A77 (RVA:0x13D835F:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x124876 (RVA:0x24315E:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12AEA0F (RVA:0x13CD2F7:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12AB273 (RVA:0x13C9B5B:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12620E7 (RVA:0x13809CF:0)
+[2026-10-13 17:35:51.035] [others] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12E7499 (RVA:0x1405D81:0)
+[2026-10-13 17:35:51.035] [others] [error]     KERNELBASE!SetSecurityDescriptorControl+0xC0 (RVA:0x107900:0)
+[2026-10-13 17:35:51.035] [others] [error]     ntdll!RtlUserFiberStart+0x19 (RVA:0x8C4F9:0)
+[2026-10-13 17:35:51.035] [crash] [error] ********************************************** CRASH DETECTED **********************************************
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12F150F (RVA:0x140FDF7:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x12B87E8 (RVA:0x13D70D0:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x1B7E8B6 (RVA:0x1C9D19E:0)
+[2026-10-13 17:35:51.036] [crash] [error]     VCRUNTIME140!_C_specific_handler+0xA0 (RVA:0x1A9C0:0)
+[2026-10-13 17:35:51.036] [crash] [error]     ntdll!_chkstk+0x9F (RVA:0x1662FF:0)
+[2026-10-13 17:35:51.036] [crash] [error]     ntdll!RtlLocateExtendedFeature+0x597 (RVA:0x12327:0)
+[2026-10-13 17:35:51.036] [crash] [error]     ntdll!RtlRaiseException+0x221 (RVA:0xA961:0)
+[2026-10-13 17:35:51.036] [crash] [error]     KERNELBASE!RaiseException+0x8A (RVA:0xC782A:0)
+[2026-10-13 17:35:51.036] [crash] [error]     MSVCP140!__ExceptionPtrRethrow+0x181 (RVA:0x3CC1:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x154856 (RVA:0x27313E:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x119579D (RVA:0x12B4085:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x11898B8 (RVA:0x12A81A0:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x11A8A69 (RVA:0x12C7351:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x11A47A0 (RVA:0x12C3088:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x92D4D (RVA:0x1B1635:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x86444 (RVA:0x1A4D2C:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x94FFC (RVA:0x1B38E4:0)
+[2026-10-13 17:35:51.036] [crash] [error]     AssettoCorsaEVOServer!tm_sdk_installer_get_error_str+0x18FF8E4 (RVA:0x1A1E1CC:0)
+[2026-10-13 17:35:51.036] [crash] [error]     KERNEL32!BaseThreadInitThunk+0x17 (RVA:0x2E8D7:0)
+[2026-10-13 17:35:51.036] [crash] [error]     ntdll!RtlUserThreadStart+0x2C (RVA:0x8C53C:0)
+[2026-10-13 17:35:51.036] [crash] [error] ************************************************************************************************************
