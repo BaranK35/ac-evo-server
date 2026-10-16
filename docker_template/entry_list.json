@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "drivers": [
+        {
+          "steamId": "76561198000000001",
+          "firstName": "Admin",
+          "lastName": "Pilot",
+          "shortName": "ADM"
+        }
+      ],
+      "carModel": "alfa_romeo_giulia_sprint_gta",
+      "carNumber": 1,
+      "isAdmin": true,
+      "ballastKg": 0,
+      "restrictor": 0.0,
+      "isServerAdmin": true
+    },
+    {
+      "drivers": [
+        {
+          "steamId": "76561198000000002",
+          "firstName": "Challenger",
+          "lastName": "Pro",
+          "shortName": "PRO"
+        }
+      ],
+      "carModel": "alfa_romeo_giulia_sprint_gta",
+      "carNumber": 2,
+      "isAdmin": false,
+      "ballastKg": 25,
+      "restrictor": 0.05,
+      "isServerAdmin": false
+    }
+  ]
+}

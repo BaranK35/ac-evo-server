@@ -1,0 +1,222 @@
+{
+  "season_type": "SeasonDefinitionType_MultiPlayer",
+  "gamemode_type": "GameModeType_PRACTICE",
+  "no_leaderboard": true,
+  "cycle": true,
+  "name": "TestFreeroam",
+  "event_map": {
+    "0": {
+      "name": "Practice",
+      "session_map": {
+        "0": {
+          "name": "Practice",
+          "description": "",
+          "scene": {
+            "track_content_data": {
+              "name": "Imola",
+              "nation": "ITA",
+              "continent": "Europe",
+              "coordinates": {
+                "longitude": 11.717,
+                "latitude": 44.344
+              },
+              "timezone": "TimeZone_Italy",
+              "folder_path": "content\\tracks\\imola",
+              "file_path": "content\\tracks\\imola\\imola.scene",
+              "track_data_path": "content\\tracks\\imola\\imola.track",
+              "sky_rules": "SkyRules_Procedural",
+              "is_release": true,
+              "is_testing_disabled": false
+            },
+            "event_name": "GP Time Attack",
+            "physics_type": "ScenePhysicsType_Realtime",
+            "spawn": {
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              }
+            },
+            "containers": [
+              "content\\tracks\\imola\\containers\\camera_sequence_practice.scene",
+              "content\\tracks\\imola\\containers\\drs_zones.scene",
+              "content\\tracks\\imola\\containers\\layout_imola.scene",
+              "content\\tracks\\imola\\containers\\pitlane_zones.scene",
+              "content\\tracks\\imola\\containers\\spawnpoints_pitlane.scene",
+              "content\\tracks\\imola\\containers\\timelines_default.scene",
+              "content\\tracks\\imola\\containers\\tv2_cameras.scene",
+              "content\\tracks\\imola\\containers\\tv_cameras.scene"
+            ],
+            "force_scene_change": false,
+            "layout_image": {
+              "margin": 10,
+              "min_x": -944.468,
+              "min_y": -523.088,
+              "k_multiplier": 1828.92505,
+              "offset_x": 0,
+              "offset_y": 450.268
+            },
+            "track_layout_name": "GP"
+          },
+          "scene_file": "",
+          "scene_source": "Custom",
+          "specialization": {
+            "@type": "type.googleapis.com/TimeAttack.Specialization",
+            "base": {
+              "session_duration_ms": 300000,
+              "session_laps": 0,
+              "maximum_session_overtime_duration_ms": 10000,
+              "maximum_session_overtime_before_next_session": 10000,
+              "intro_music": true,
+              "end_music": true,
+              "end_replay_type": "None"
+            },
+            "base_file": "",
+            "base_source": "Custom",
+            "penalty_transformations": {
+              "transformations": []
+            },
+            "penalty_transformations_file": "EA1",
+            "penalty_transformations_source": "Custom",
+            "penalty_investigations": {
+              "triggers": [
+                {
+                  "race_car_cut": {
+                    "tyres_out": 3,
+                    "wet_multiplier": 0
+                  },
+                  "command_name": "",
+                  "checks": []
+                },
+                {
+                  "wrong_way": {
+                    "min_speed": 2,
+                    "speed_multiplier": 0.1,
+                    "out_of_track_multiplier": 2
+                  },
+                  "command_name": "",
+                  "checks": []
+                },
+                {
+                  "speeding": {
+                    "required_speed": 60,
+                    "check_if_higher": true
+                  },
+                  "command_name": "pitlane",
+                  "checks": []
+                }
+              ]
+            },
+            "penalty_investigations_file": "EA1",
+            "penalty_investigations_source": "Custom",
+            "rules": []
+          },
+          "weather": {
+            "initial_date_time": {
+              "year": 2024,
+              "month": 8,
+              "day": 15,
+              "hour": 16,
+              "minute": 0,
+              "second": 0
+            },
+            "time_multiplier": 1,
+            "recalc_interval_seconds": 10,
+            "spatial_noise_data": {
+              "scale": 1,
+              "frequency": 0.0004,
+              "amplitude": 1.02,
+              "order": 17,
+              "seed": {
+                "x": 2.81,
+                "y": 4.47
+              }
+            },
+            "static_data": {
+              "static_weather": {
+                "now": {
+                  "nanosecondsUtc": "0",
+                  "timeZone": "TimeZone_UTC"
+                },
+                "sun_position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "moon_position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "mean_ambient_temperature_c": 23.3815117,
+                "ambient_temperature_c": 29.6889973,
+                "cloud_coverage": 0,
+                "gloominess": 0,
+                "precipitation": 0,
+                "fog": 0,
+                "humidity": 0,
+                "cloud_pos_x": 0,
+                "cloud_pos_y": 0,
+                "pressure_psi": 0,
+                "wind_speed": 0.2,
+                "wind_gust": 0.1,
+                "wind_direction": {
+                  "x": 1,
+                  "y": 0,
+                  "z": 0
+                },
+                "initial_global_wetness": 0,
+                "is_dynamic_weather": false
+              }
+            }
+          },
+          "weather_type": "GameModeSelectionWeatherType_CLEAR",
+          "weather_file": "",
+          "weather_source": "Custom",
+          "weather_update_interval_seconds": 0,
+          "initial_grip": "InitialGrip_GREEN",
+          "dynamic_track_condition": {
+            "initial_grip": 0.96,
+            "rubber": 0.2,
+            "marbles": 0.12
+          },
+          "car_model": [],
+          "netcode_update_interval": 0,
+          "save_as_default": false,
+          "pause_replay_enable": false,
+          "pause_go_to_pitlane_enable": false,
+          "pause_restart_enable": false,
+          "crowd_density": 0.19
+        }
+      }
+    }
+  },
+  "entrylist": {
+    "competitors": [
+      {
+        "competitor_key": "",
+        "name": "None"
+      }
+    ],
+    "cars": [],
+    "drivers": []
+  },
+  "entrylist_file": "",
+  "entrylist_source": "Custom",
+  "event_mutable_data": {},
+  "event_results_map": {},
+  "season_cache": {
+    "current_session_id": 0,
+    "current_event_id": 0
+  }
+}

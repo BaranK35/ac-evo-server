@@ -1,0 +1,389 @@
+[2026-10-15 20:08:29.676] [others] [info] Build release 0.9.1, version 0.9.1+release.4, revision 877dc5a16ab915ec3c01ff601c6cf79cde8726c8, steam appid 3058630, built on Aug 28 2026 13:19:36
+[2026-10-15 20:08:29.677] [others] [info] TimeDateStamp: 0x6A9171AE (2026-08-28 11:31:58 UTC)
+[2026-10-15 20:08:29.678] [others] [info] Deleted 1 old dump file(s)
+[2026-10-15 20:08:29.678] [others] [info] DbgHelp path: C:\Windows\SYSTEM32\dbghelp.dll
+[2026-10-15 20:08:29.678] [others] [info] DbgHelp version: 6.2.26100.5074
+[2026-10-15 20:08:29.678] [others] [info] Symbol search path: .;c:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server
+[2026-10-15 20:08:29.678] [others] [info] Module: c:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\AssettoCorsaEVOServer.exe Base: 0x7FF7AC330000 Size: 40218624
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\SYSTEM32\ntdll.dll Base: 0x7FFC6EE80000 Size: 2519040
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\KERNEL32.DLL Base: 0x7FFC6DE10000 Size: 823296
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\KERNELBASE.dll Base: 0x7FFC6BFD0000 Size: 4124672
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\CRYPT32.dll Base: 0x7FFC6CA10000 Size: 1536000
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\ucrtbase.dll Base: 0x7FFC6C480000 Size: 1355776
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\WS2_32.dll Base: 0x7FFC6CC20000 Size: 475136
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\RPCRT4.dll Base: 0x7FFC6CD20000 Size: 1146880
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\SHLWAPI.dll Base: 0x7FFC6CFE0000 Size: 417792
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\SETUPAPI.dll Base: 0x7FFC6DEE0000 Size: 4759552
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\msvcrt.dll Base: 0x7FFC6DD60000 Size: 692224
+[2026-10-15 20:08:29.678] [others] [info] Module: c:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\steam_api64.dll Base: 0x7FFC226C0000 Size: 315392
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\USER32.dll Base: 0x7FFC6E9C0000 Size: 1855488
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\ADVAPI32.dll Base: 0x7FFC6EB90000 Size: 737280
+[2026-10-15 20:08:29.678] [others] [info] Module: c:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\libssl-3-x64.dll Base: 0x7FFC21C80000 Size: 1339392
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\win32u.dll Base: 0x7FFC6C740000 Size: 159744
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\sechost.dll Base: 0x7FFC6D3E0000 Size: 679936
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\GDI32.dll Base: 0x7FFC6D490000 Size: 176128
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\SHELL32.dll Base: 0x7FFC6D510000 Size: 7680000
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\gdi32full.dll Base: 0x7FFC6C8E0000 Size: 1228800
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\SYSTEM32\HID.DLL Base: 0x7FFC6A420000 Size: 61440
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\msvcp_win.dll Base: 0x7FFC6C3D0000 Size: 667648
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\ole32.dll Base: 0x7FFC6EC80000 Size: 1667072
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\wintypes.dll Base: 0x7FFC6C770000 Size: 1482752
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\combase.dll Base: 0x7FFC6D050000 Size: 3690496
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\SYSTEM32\XINPUT1_4.dll Base: 0x7FFC4E660000 Size: 114688
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\System32\OLEAUT32.dll Base: 0x7FFC6DC70000 Size: 876544
+[2026-10-15 20:08:29.678] [others] [info] Module: C:\Windows\SYSTEM32\DINPUT8.dll Base: 0x7FFC2B540000 Size: 307200
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\VERSION.dll Base: 0x7FFC66E80000 Size: 45056
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\System32\WINTRUST.dll Base: 0x7FFC6CB90000 Size: 524288
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\System32\imagehlp.dll Base: 0x7FFC6EC50000 Size: 131072
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\VCRUNTIME140.dll Base: 0x7FFC4D010000 Size: 180224
+[2026-10-15 20:08:29.679] [others] [info] Module: c:\Users\Administrator\IDE Projelerim\evo_manager\bundled_server\libcrypto-3-x64.dll Base: 0x7FFBDB390000 Size: 7335936
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\cfgmgr32.dll Base: 0x7FFC6BBD0000 Size: 356352
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\MSVCP140.dll Base: 0x7FFC4CF70000 Size: 643072
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\WINMM.dll Base: 0x7FFC5F5C0000 Size: 217088
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\DEVOBJ.dll Base: 0x7FFC6BBA0000 Size: 184320
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\bcrypt.dll Base: 0x7FFC6BEC0000 Size: 172032
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\IPHLPAPI.DLL Base: 0x7FFC6A730000 Size: 212992
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\dbghelp.dll Base: 0x7FFC57D50000 Size: 2367488
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\VCRUNTIME140_1.dll Base: 0x7FFC4D040000 Size: 49152
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\dbgcore.DLL Base: 0x7FFC3E130000 Size: 245760
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\System32\IMM32.DLL Base: 0x7FFC6CEA0000 Size: 200704
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\MSASN1.dll Base: 0x7FFC6B6E0000 Size: 77824
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\inputhost.dll Base: 0x7FFC50AC0000 Size: 1986560
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\CoreMessaging.dll Base: 0x7FFC68D70000 Size: 1208320
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\System32\bcryptPrimitives.dll Base: 0x7FFC6C5D0000 Size: 675840
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\CRYPTBASE.DLL Base: 0x7FFC6B4E0000 Size: 49152
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\windows.storage.dll Base: 0x7FFC69BB0000 Size: 8773632
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\System32\SHCORE.dll Base: 0x7FFC6CEE0000 Size: 1003520
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\profapi.dll Base: 0x7FFC6BEF0000 Size: 167936
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\iertutil.dll Base: 0x7FFC538C0000 Size: 2904064
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\srvcli.dll Base: 0x7FFC53890000 Size: 167936
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\netutils.dll Base: 0x7FFC6A720000 Size: 53248
+[2026-10-15 20:08:29.679] [others] [info] Module: C:\Windows\SYSTEM32\kernel.appcore.dll Base: 0x7FFC6AD40000 Size: 110592
+[2026-10-15 20:08:29.793] [network] [info] Backend URL: strategy always_dev, config release
+[2026-10-15 20:08:29.805] [others] [info] QueryPerformanceFrequency: 10000
+[2026-10-15 20:08:29.889] [server] [info] Starting RemoteGameServer (protocol 8)... sv 14
+[2026-10-15 20:08:29.889] [server] [info] Reading serverconfig and seasondefintion from serverLauncher
+[2026-10-15 20:08:29.890] [others] [info] ServerConfiguration pasted
+[2026-10-15 20:08:29.890] [others] [info] BuildSeasonDefinitionRequest pasted
+[2026-10-15 20:08:29.891] [ui] [info] "content\\data\\practice.seasondefinition" can't be loaded into SeasonDefinition (Encountered non UTF-8 code points.
+PracticeR« ¦
+^)
+[2026-10-15 20:08:29.891] [gameplay] [info] loading season Practice
+[2026-10-15 20:08:29.892] [server] [info] Start Server TestCustomLaunchPath
+[2026-10-15 20:08:29.934] [gameplay] [info] 0 spawn points of StartingPositionType_DevelopmentDefault[0]
+[2026-10-15 20:08:29.934] [gameplay] [info] 0 spawn points of StartingPositionType_Grid[0]
+[2026-10-15 20:08:29.934] [gameplay] [info] 30 spawn points of StartingPositionType_Pit[0]
+[2026-10-15 20:08:29.934] [gameplay] [info] 30 spawn points of StartingPositionType_Box[0]
+[2026-10-15 20:08:29.934] [gameplay] [info] 0 spawn points of StartingPositionType_Poi[0]
+[2026-10-15 20:08:29.934] [gameplay] [info] Loaded 60 spawn points
+[2026-10-15 20:08:29.934] [gameplay] [info] TimeAttackRemote Practice created
+[2026-10-15 20:08:29.934] [server] [info] Allowed Cars: preset_m4gt3_mech_1 0 0
+[2026-10-15 20:08:29.934] [server] [info] Season Definition
+[2026-10-15 20:08:29.935] [server] [info] {
+[2026-10-15 20:08:29.935] [server] [info]  "season_type": "SeasonDefinitionType_MultiPlayer",
+[2026-10-15 20:08:29.935] [server] [info]  "gamemode_type": "GameModeType_PRACTICE",
+[2026-10-15 20:08:29.935] [server] [info]  "no_leaderboard": true,
+[2026-10-15 20:08:29.935] [server] [info]  "cycle": true,
+[2026-10-15 20:08:29.935] [server] [info]  "name": "TestCustomLaunchPath",
+[2026-10-15 20:08:29.935] [server] [info]  "event_map": {
+[2026-10-15 20:08:29.935] [server] [info]   "0": {
+[2026-10-15 20:08:29.935] [server] [info]    "name": "Practice",
+[2026-10-15 20:08:29.935] [server] [info]    "session_map": {
+[2026-10-15 20:08:29.935] [server] [info]     "0": {
+[2026-10-15 20:08:29.935] [server] [info]      "name": "Practice",
+[2026-10-15 20:08:29.935] [server] [info]      "description": "",
+[2026-10-15 20:08:29.935] [server] [info]      "scene": {
+[2026-10-15 20:08:29.935] [server] [info]       "track_content_data": {
+[2026-10-15 20:08:29.935] [server] [info]        "name": "Imola",
+[2026-10-15 20:08:29.935] [server] [info]        "nation": "ITA",
+[2026-10-15 20:08:29.935] [server] [info]        "continent": "Europe",
+[2026-10-15 20:08:29.935] [server] [info]        "coordinates": {
+[2026-10-15 20:08:29.935] [server] [info]         "longitude": 11.717,
+[2026-10-15 20:08:29.935] [server] [info]         "latitude": 44.344
+[2026-10-15 20:08:29.935] [server] [info]        },
+[2026-10-15 20:08:29.935] [server] [info]        "timezone": "TimeZone_Italy",
+[2026-10-15 20:08:29.935] [server] [info]        "folder_path": "content\\tracks\\imola",
+[2026-10-15 20:08:29.935] [server] [info]        "file_path": "content\\tracks\\imola\\imola.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "track_data_path": "content\\tracks\\imola\\imola.track",
+[2026-10-15 20:08:29.935] [server] [info]        "sky_rules": "SkyRules_Procedural",
+[2026-10-15 20:08:29.935] [server] [info]        "is_release": true,
+[2026-10-15 20:08:29.935] [server] [info]        "is_testing_disabled": false
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "event_name": "GP Time Attack",
+[2026-10-15 20:08:29.935] [server] [info]       "physics_type": "ScenePhysicsType_Realtime",
+[2026-10-15 20:08:29.935] [server] [info]       "spawn": {
+[2026-10-15 20:08:29.935] [server] [info]        "position": {
+[2026-10-15 20:08:29.935] [server] [info]         "x": 0,
+[2026-10-15 20:08:29.935] [server] [info]         "y": 0,
+[2026-10-15 20:08:29.935] [server] [info]         "z": 0
+[2026-10-15 20:08:29.935] [server] [info]        },
+[2026-10-15 20:08:29.935] [server] [info]        "rotation": {
+[2026-10-15 20:08:29.935] [server] [info]         "x": 0,
+[2026-10-15 20:08:29.935] [server] [info]         "y": 0,
+[2026-10-15 20:08:29.935] [server] [info]         "z": 0
+[2026-10-15 20:08:29.935] [server] [info]        },
+[2026-10-15 20:08:29.935] [server] [info]        "scale": {
+[2026-10-15 20:08:29.935] [server] [info]         "x": 1,
+[2026-10-15 20:08:29.935] [server] [info]         "y": 1,
+[2026-10-15 20:08:29.935] [server] [info]         "z": 1
+[2026-10-15 20:08:29.935] [server] [info]        }
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "containers": [
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\camera_sequence_practice.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\drs_zones.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\layout_imola.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\pitlane_zones.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\spawnpoints_pitlane.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\timelines_default.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\tv2_cameras.scene",
+[2026-10-15 20:08:29.935] [server] [info]        "content\\tracks\\imola\\containers\\tv_cameras.scene"
+[2026-10-15 20:08:29.935] [server] [info]       ],
+[2026-10-15 20:08:29.935] [server] [info]       "force_scene_change": false,
+[2026-10-15 20:08:29.935] [server] [info]       "layout_image": {
+[2026-10-15 20:08:29.935] [server] [info]        "margin": 10,
+[2026-10-15 20:08:29.935] [server] [info]        "min_x": -944.468,
+[2026-10-15 20:08:29.935] [server] [info]        "min_y": -523.088,
+[2026-10-15 20:08:29.935] [server] [info]        "k_multiplier": 1828.92505,
+[2026-10-15 20:08:29.935] [server] [info]        "offset_x": 0,
+[2026-10-15 20:08:29.935] [server] [info]        "offset_y": 450.268
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "track_layout_name": "GP"
+[2026-10-15 20:08:29.935] [server] [info]      },
+[2026-10-15 20:08:29.935] [server] [info]      "scene_file": "",
+[2026-10-15 20:08:29.935] [server] [info]      "scene_source": "Custom",
+[2026-10-15 20:08:29.935] [server] [info]      "specialization": {
+[2026-10-15 20:08:29.935] [server] [info]       "@type": "type.googleapis.com/TimeAttack.Specialization",
+[2026-10-15 20:08:29.935] [server] [info]       "base": {
+[2026-10-15 20:08:29.935] [server] [info]        "session_duration_ms": 300000,
+[2026-10-15 20:08:29.935] [server] [info]        "session_laps": 0,
+[2026-10-15 20:08:29.935] [server] [info]        "maximum_session_overtime_duration_ms": 10000,
+[2026-10-15 20:08:29.935] [server] [info]        "maximum_session_overtime_before_next_session": 10000,
+[2026-10-15 20:08:29.935] [server] [info]        "intro_music": true,
+[2026-10-15 20:08:29.935] [server] [info]        "end_music": true,
+[2026-10-15 20:08:29.935] [server] [info]        "end_replay_type": "None"
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "base_file": "",
+[2026-10-15 20:08:29.935] [server] [info]       "base_source": "Custom",
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_transformations": {
+[2026-10-15 20:08:29.935] [server] [info]        "transformations": []
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_transformations_file": "EA1",
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_transformations_source": "Custom",
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_investigations": {
+[2026-10-15 20:08:29.935] [server] [info]        "triggers": [
+[2026-10-15 20:08:29.935] [server] [info]         {
+[2026-10-15 20:08:29.935] [server] [info]          "race_car_cut": {
+[2026-10-15 20:08:29.935] [server] [info]           "tyres_out": 3,
+[2026-10-15 20:08:29.935] [server] [info]           "wet_multiplier": 0
+[2026-10-15 20:08:29.935] [server] [info]          },
+[2026-10-15 20:08:29.935] [server] [info]          "command_name": "",
+[2026-10-15 20:08:29.935] [server] [info]          "checks": []
+[2026-10-15 20:08:29.935] [server] [info]         },
+[2026-10-15 20:08:29.935] [server] [info]         {
+[2026-10-15 20:08:29.935] [server] [info]          "wrong_way": {
+[2026-10-15 20:08:29.935] [server] [info]           "min_speed": 2,
+[2026-10-15 20:08:29.935] [server] [info]           "speed_multiplier": 0.1,
+[2026-10-15 20:08:29.935] [server] [info]           "out_of_track_multiplier": 2
+[2026-10-15 20:08:29.935] [server] [info]          },
+[2026-10-15 20:08:29.935] [server] [info]          "command_name": "",
+[2026-10-15 20:08:29.935] [server] [info]          "checks": [
+[2026-10-15 20:08:29.935] [server] [info]           {
+[2026-10-15 20:08:29.935] [server] [info]            "data": {
+[2026-10-15 20:08:29.935] [server] [info]             "type": "PenaltyType_Warning",
+[2026-10-15 20:08:29.935] [server] [info]             "penalty_time_ms": 0,
+[2026-10-15 20:08:29.935] [server] [info]             "laps_for_clearing": 0
+[2026-10-15 20:08:29.935] [server] [info]            },
+[2026-10-15 20:08:29.935] [server] [info]            "weight": 30
+[2026-10-15 20:08:29.935] [server] [info]           },
+[2026-10-15 20:08:29.935] [server] [info]           {
+[2026-10-15 20:08:29.935] [server] [info]            "data": {
+[2026-10-15 20:08:29.935] [server] [info]             "type": "PenaltyType_Disqualification",
+[2026-10-15 20:08:29.935] [server] [info]             "penalty_time_ms": 0,
+[2026-10-15 20:08:29.935] [server] [info]             "laps_for_clearing": 0
+[2026-10-15 20:08:29.935] [server] [info]            },
+[2026-10-15 20:08:29.935] [server] [info]            "weight": 100
+[2026-10-15 20:08:29.935] [server] [info]           }
+[2026-10-15 20:08:29.935] [server] [info]          ]
+[2026-10-15 20:08:29.935] [server] [info]         },
+[2026-10-15 20:08:29.935] [server] [info]         {
+[2026-10-15 20:08:29.935] [server] [info]          "speeding": {
+[2026-10-15 20:08:29.935] [server] [info]           "required_speed": 60,
+[2026-10-15 20:08:29.935] [server] [info]           "check_if_higher": true
+[2026-10-15 20:08:29.935] [server] [info]          },
+[2026-10-15 20:08:29.935] [server] [info]          "command_name": "pitlane",
+[2026-10-15 20:08:29.935] [server] [info]          "checks": [
+[2026-10-15 20:08:29.935] [server] [info]           {
+[2026-10-15 20:08:29.935] [server] [info]            "data": {
+[2026-10-15 20:08:29.935] [server] [info]             "type": "PenaltyType_Warning",
+[2026-10-15 20:08:29.935] [server] [info]             "penalty_time_ms": 0,
+[2026-10-15 20:08:29.935] [server] [info]             "laps_for_clearing": 0
+[2026-10-15 20:08:29.935] [server] [info]            },
+[2026-10-15 20:08:29.935] [server] [info]            "weight": 62
+[2026-10-15 20:08:29.935] [server] [info]           },
+[2026-10-15 20:08:29.935] [server] [info]           {
+[2026-10-15 20:08:29.935] [server] [info]            "data": {
+[2026-10-15 20:08:29.935] [server] [info]             "type": "PenaltyType_MP_TeleportToPit",
+[2026-10-15 20:08:29.935] [server] [info]             "penalty_time_ms": 10000,
+[2026-10-15 20:08:29.935] [server] [info]             "laps_for_clearing": 0
+[2026-10-15 20:08:29.935] [server] [info]            },
+[2026-10-15 20:08:29.935] [server] [info]            "weight": 70
+[2026-10-15 20:08:29.935] [server] [info]           }
+[2026-10-15 20:08:29.935] [server] [info]          ]
+[2026-10-15 20:08:29.935] [server] [info]         }
+[2026-10-15 20:08:29.935] [server] [info]        ]
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_investigations_file": "EA1",
+[2026-10-15 20:08:29.935] [server] [info]       "penalty_investigations_source": "Custom",
+[2026-10-15 20:08:29.935] [server] [info]       "rules": []
+[2026-10-15 20:08:29.935] [server] [info]      },
+[2026-10-15 20:08:29.935] [server] [info]      "weather": {
+[2026-10-15 20:08:29.935] [server] [info]       "initial_date_time": {
+[2026-10-15 20:08:29.935] [server] [info]        "year": 2024,
+[2026-10-15 20:08:29.935] [server] [info]        "month": 8,
+[2026-10-15 20:08:29.935] [server] [info]        "day": 15,
+[2026-10-15 20:08:29.935] [server] [info]        "hour": 16,
+[2026-10-15 20:08:29.935] [server] [info]        "minute": 0,
+[2026-10-15 20:08:29.935] [server] [info]        "second": 0
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "time_multiplier": 1,
+[2026-10-15 20:08:29.935] [server] [info]       "recalc_interval_seconds": 10,
+[2026-10-15 20:08:29.935] [server] [info]       "spatial_noise_data": {
+[2026-10-15 20:08:29.935] [server] [info]        "scale": 1,
+[2026-10-15 20:08:29.935] [server] [info]        "frequency": 0.0004,
+[2026-10-15 20:08:29.935] [server] [info]        "amplitude": 1.02,
+[2026-10-15 20:08:29.935] [server] [info]        "order": 17,
+[2026-10-15 20:08:29.935] [server] [info]        "seed": {
+[2026-10-15 20:08:29.935] [server] [info]         "x": 2.81,
+[2026-10-15 20:08:29.935] [server] [info]         "y": 4.47
+[2026-10-15 20:08:29.935] [server] [info]        }
+[2026-10-15 20:08:29.935] [server] [info]       },
+[2026-10-15 20:08:29.935] [server] [info]       "static_data": {
+[2026-10-15 20:08:29.935] [server] [info]        "static_weather": {
+[2026-10-15 20:08:29.935] [server] [info]         "now": {
+[2026-10-15 20:08:29.936] [server] [info]          "nanosecondsUtc": "0",
+[2026-10-15 20:08:29.936] [server] [info]          "timeZone": "TimeZone_UTC"
+[2026-10-15 20:08:29.936] [server] [info]         },
+[2026-10-15 20:08:29.936] [server] [info]         "sun_position": {
+[2026-10-15 20:08:29.936] [server] [info]          "x": 0,
+[2026-10-15 20:08:29.936] [server] [info]          "y": 0,
+[2026-10-15 20:08:29.936] [server] [info]          "z": 0
+[2026-10-15 20:08:29.936] [server] [info]         },
+[2026-10-15 20:08:29.936] [server] [info]         "moon_position": {
+[2026-10-15 20:08:29.936] [server] [info]          "x": 0,
+[2026-10-15 20:08:29.936] [server] [info]          "y": 0,
+[2026-10-15 20:08:29.936] [server] [info]          "z": 0
+[2026-10-15 20:08:29.936] [server] [info]         },
+[2026-10-15 20:08:29.936] [server] [info]         "mean_ambient_temperature_c": 23.3815117,
+[2026-10-15 20:08:29.936] [server] [info]         "ambient_temperature_c": 29.6889973,
+[2026-10-15 20:08:29.936] [server] [info]         "cloud_coverage": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "gloominess": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "precipitation": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "fog": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "humidity": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "cloud_pos_x": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "cloud_pos_y": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "pressure_psi": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "wind_speed": 0.2,
+[2026-10-15 20:08:29.936] [server] [info]         "wind_gust": 0.1,
+[2026-10-15 20:08:29.936] [server] [info]         "wind_direction": {
+[2026-10-15 20:08:29.936] [server] [info]          "x": 1,
+[2026-10-15 20:08:29.936] [server] [info]          "y": 0,
+[2026-10-15 20:08:29.936] [server] [info]          "z": 0
+[2026-10-15 20:08:29.936] [server] [info]         },
+[2026-10-15 20:08:29.936] [server] [info]         "initial_global_wetness": 0,
+[2026-10-15 20:08:29.936] [server] [info]         "is_dynamic_weather": false
+[2026-10-15 20:08:29.936] [server] [info]        }
+[2026-10-15 20:08:29.936] [server] [info]       }
+[2026-10-15 20:08:29.936] [server] [info]      },
+[2026-10-15 20:08:29.936] [server] [info]      "weather_type": "GameModeSelectionWeatherType_CLEAR",
+[2026-10-15 20:08:29.936] [server] [info]      "weather_file": "",
+[2026-10-15 20:08:29.936] [server] [info]      "weather_source": "Custom",
+[2026-10-15 20:08:29.936] [server] [info]      "weather_update_interval_seconds": 0,
+[2026-10-15 20:08:29.936] [server] [info]      "initial_grip": "InitialGrip_GREEN",
+[2026-10-15 20:08:29.936] [server] [info]      "dynamic_track_condition": {
+[2026-10-15 20:08:29.936] [server] [info]       "initial_grip": 0.96,
+[2026-10-15 20:08:29.936] [server] [info]       "rubber": 0.2,
+[2026-10-15 20:08:29.936] [server] [info]       "marbles": 0.12
+[2026-10-15 20:08:29.936] [server] [info]      },
+[2026-10-15 20:08:29.936] [server] [info]      "car_model": [],
+[2026-10-15 20:08:29.936] [server] [info]      "netcode_update_interval": 0,
+[2026-10-15 20:08:29.936] [server] [info]      "save_as_default": false,
+[2026-10-15 20:08:29.936] [server] [info]      "pause_replay_enable": false,
+[2026-10-15 20:08:29.936] [server] [info]      "pause_go_to_pitlane_enable": false,
+[2026-10-15 20:08:29.936] [server] [info]      "pause_restart_enable": false,
+[2026-10-15 20:08:29.936] [server] [info]      "crowd_density": 0.19
+[2026-10-15 20:08:29.936] [server] [info]     }
+[2026-10-15 20:08:29.936] [server] [info]    }
+[2026-10-15 20:08:29.936] [server] [info]   }
+[2026-10-15 20:08:29.936] [server] [info]  },
+[2026-10-15 20:08:29.936] [server] [info]  "entrylist": {
+[2026-10-15 20:08:29.936] [server] [info]   "competitors": [
+[2026-10-15 20:08:29.936] [server] [info]    {
+[2026-10-15 20:08:29.936] [server] [info]     "competitor_key": "",
+[2026-10-15 20:08:29.936] [server] [info]     "name": "None"
+[2026-10-15 20:08:29.936] [server] [info]    }
+[2026-10-15 20:08:29.936] [server] [info]   ],
+[2026-10-15 20:08:29.936] [server] [info]   "cars": [],
+[2026-10-15 20:08:29.936] [server] [info]   "drivers": []
+[2026-10-15 20:08:29.936] [server] [info]  },
+[2026-10-15 20:08:29.936] [server] [info]  "entrylist_file": "",
+[2026-10-15 20:08:29.936] [server] [info]  "entrylist_source": "Custom",
+[2026-10-15 20:08:29.936] [server] [info]  "event_mutable_data": {},
+[2026-10-15 20:08:29.936] [server] [info]  "event_results_map": {},
+[2026-10-15 20:08:29.936] [server] [info]  "season_cache": {
+[2026-10-15 20:08:29.936] [server] [info]   "current_session_id": 0,
+[2026-10-15 20:08:29.936] [server] [info]   "current_event_id": 0
+[2026-10-15 20:08:29.936] [server] [info]  }
+[2026-10-15 20:08:29.936] [server] [info] }
+[2026-10-15 20:08:29.936] [server] [info] Server Config
+[2026-10-15 20:08:29.936] [server] [info] {
+[2026-10-15 20:08:29.936] [server] [info]  "server_tcp_listener_port": 9712,
+[2026-10-15 20:08:29.936] [server] [info]  "server_udp_listener_port": 9712,
+[2026-10-15 20:08:29.936] [server] [info]  "server_tcp_internal_port": 0,
+[2026-10-15 20:08:29.936] [server] [info]  "server_udp_internal_port": 0,
+[2026-10-15 20:08:29.936] [server] [info]  "server_http_port": 8097,
+[2026-10-15 20:08:29.936] [server] [info]  "server_name": "TestCustomLaunchPath",
+[2026-10-15 20:08:29.936] [server] [info]  "launch_path": "c:\\Users\\Administrator\\IDE Projelerim\\evo_manager\\scratch\\no_penalties.seasondefinition",
+[2026-10-15 20:08:29.936] [server] [info]  "netcode_update_interval": 55,
+[2026-10-15 20:08:29.936] [server] [info]  "driver_password": "",
+[2026-10-15 20:08:29.936] [server] [info]  "spectator_password": "",
+[2026-10-15 20:08:29.936] [server] [info]  "max_players": 4,
+[2026-10-15 20:08:29.936] [server] [info]  "allowed_cars_list_full": [
+[2026-10-15 20:08:29.936] [server] [info]   {
+[2026-10-15 20:08:29.936] [server] [info]    "car_name": "preset_m4gt3_mech_1",
+[2026-10-15 20:08:29.936] [server] [info]    "ballast": 0,
+[2026-10-15 20:08:29.936] [server] [info]    "restrictor": 0
+[2026-10-15 20:08:29.936] [server] [info]   }
+[2026-10-15 20:08:29.936] [server] [info]  ],
+[2026-10-15 20:08:29.936] [server] [info]  "type": "MultiplayerServerListSessionType_BOTH",
+[2026-10-15 20:08:29.936] [server] [info]  "cycle": true,
+[2026-10-15 20:08:29.936] [server] [info]  "admin_password": "",
+[2026-10-15 20:08:29.936] [server] [info]  "pi_min": 0,
+[2026-10-15 20:08:29.936] [server] [info]  "pi_max": 0,
+[2026-10-15 20:08:29.936] [server] [info]  "property_1": [],
+[2026-10-15 20:08:29.936] [server] [info]  "property_2": [],
+[2026-10-15 20:08:29.936] [server] [info]  "property_3": [],
+[2026-10-15 20:08:29.936] [server] [info]  "entry_list_server_url": "",
+[2026-10-15 20:08:29.936] [server] [info]  "results_post_url": "",
+[2026-10-15 20:08:29.936] [server] [info]  "token": "",
+[2026-10-15 20:08:29.936] [server] [info]  "entry_list_path": "",
+[2026-10-15 20:08:29.936] [server] [info]  "results_path": "",
+[2026-10-15 20:08:29.936] [server] [info]  "tuning_type": "TuningAllowed"
+[2026-10-15 20:08:29.936] [server] [info] }
+[2026-10-15 20:08:30.087] [server] [info] Sha unique content: f4e87b9401f3f69bdf103d921508c612b5a4dbca94949d32c821943629945386
+[2026-10-15 20:08:30.087] [network] [info] Launching OnlineServices with server config: TestCustomLaunchPath on TCP 9712
+[2026-10-15 20:08:30.087] [server] [info] Listening to TCP 9712
+[2026-10-15 20:08:30.087] [server] [info] Listening to UDP 9712
+[2026-10-15 20:08:30.087] [network] [info] Result server url : 
+[2026-10-15 20:08:30.087] [server] [info] Server updated: 0 players
+[2026-10-15 20:08:30.087] [messages] [error] ServerEngineChannel: doesn't implement message handler for message WeatherNoiseData
+[2026-10-15 20:08:30.087] [network] [info] VSERVER Connecting to backend at wss://c.gk.sd:6990/9kB3F1CAx7mQ2zL5vN8pD4sT6yW0eU1r/000500
+[2026-10-15 20:08:30.089] [network] [info] Websocket status changed: CONNECTING
+[2026-10-15 20:08:30.338] [network] [info] Websocket connection opened
+[2026-10-15 20:08:30.338] [network] [info] Outbound msg to backend: type.googleapis.com/RegisterRequest (Success: true)
+[2026-10-15 20:08:30.338] [network] [info] sent lobby handshake
+[2026-10-15 20:08:30.338] [network] [info] Websocket status changed: CONNECTED
+[2026-10-15 20:08:30.401] [network] [info] Incoming msg from backend with type_url: type.googleapis.com/RegisterResponse
+[2026-10-15 20:08:30.605] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestUpdateServer (Success: true)
+[2026-10-15 20:08:31.118] [network] [info] Outbound msg to backend: type.googleapis.com/MultiplayerServerListRequestRegisterServer (Success: true)
+[2026-10-15 20:08:31.541] [network] [info] Incoming msg from backend with type_url: type.googleapis.com/MultiplayerServerListResponseRegisterServer

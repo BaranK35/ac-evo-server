@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  acevo-server:
+    image: zino1337/acevo-server:latest
+    container_name: acevo-dedicated-server
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      # Oyun ve Ping portu (TCP ve UDP ayni olmali)
+      - "9700:9700/udp"
+      - "9700:9700/tcp"
+      # Web Yonetim Paneli
+      - "8090:8090/tcp"
+      # HTTP API
+      - "8080:8080/tcp"
+    volumes:
+      - ./data:/data
+      - ./data/mods:/data/mods
+      - ./logs:/data/logs
+    environment:
+      # GPU gereksinimi olmadan calisma (Headless Software Rendering)
+      - ACEVO_FORCE_SOFTWARE_RENDERING=true
+      - DXVK_LOG_LEVEL=none
+      - WINEDEBUG=-all

@@ -1,0 +1,457 @@
+{
+  "config_priority": "env",
+  "resolved_env": [
+    {
+      "key": "SERVER_LAUNCHER_JSON",
+      "value": "\\data\\server_launcher.json",
+      "source": "default",
+      "note": "auto-load path not present"
+    },
+    {
+      "key": "SERVER_NAME",
+      "value": "AC EVO Nordschleife Trackday",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_MAX_PLAYERS",
+      "value": 20,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_TCP_PORT",
+      "value": 9700,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_UDP_PORT",
+      "value": 9700,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_HTTP_PORT",
+      "value": 8080,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_TYPE",
+      "value": "MultiplayerServerListSessionType_RANKED",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_TUNING_TYPE",
+      "value": "TuningAllowed",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_CYCLE_ENABLED",
+      "value": true,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_DRIVER_PASSWORD",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_SPECTATOR_PASSWORD",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_ADMIN_PASSWORD",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_ENTRY_LIST_URL",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_RESULTS_POST_URL",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_ENTRY_LIST_PATH",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "SERVER_RESULTS_PATH",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_TYPE",
+      "value": "GameModeType_PRACTICE",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_INITIAL_GRIP",
+      "value": "InitialGrip_OPTIMUM",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_WEATHER_BEHAVIOUR",
+      "value": "GameModeSelectionWeatherBehaviour_STATIC",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_WEATHER",
+      "value": "GameModeSelectionWeatherType_CLEAR",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_TRACK",
+      "value": "Nurburgring_Touristenfahrten",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_CARS",
+      "value": "all",
+      "source": "default",
+      "note": "installed mods require explicit selection"
+    },
+    {
+      "key": "EVENT_CAR_CATEGORY",
+      "value": "all",
+      "source": "default",
+      "note": "installed mods require explicit selection"
+    },
+    {
+      "key": "EVENT_BAN_CARS",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "EVENT_BAN_CAR_CATEGORY",
+      "value": "",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_DURATION_TYPE",
+      "value": "GameModeSelectionDuration_TIME",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_DURATION_LAPS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_MIN_WAITING_FOR_PLAYERS_SECONDS",
+      "value": 10,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_MAX_WAITING_FOR_PLAYERS_SECONDS",
+      "value": 60,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_MANDATORY_PITSTOP_ENABLED",
+      "value": false,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_MANDATORY_PITSTOP_WINDOW_SECONDS",
+      "value": 600,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_MANDATORY_PITSTOP_REFUEL",
+      "value": true,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "RACE_MANDATORY_PITSTOP_TYRE_CHANGE",
+      "value": true,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "ACEVO_SERVER_INSTALL_DIR",
+      "value": "/data/server",
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "ACEVO_FORCE_SOFTWARE_RENDERING",
+      "value": "true",
+      "source": "external_runtime",
+      "note": "used by start.sh Proton rendering mode"
+    },
+    {
+      "key": "PRACTICE_YEAR",
+      "value": 2024,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_MONTH",
+      "value": 8,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_DAY",
+      "value": 15,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_DURATION_MINUTES",
+      "value": 180,
+      "source": "default",
+      "note": "converted to 10800 seconds for payload"
+    },
+    {
+      "key": "PRACTICE_HOUR",
+      "value": 14,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_MINUTE",
+      "value": 0,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_TIME_MULTIPLIER",
+      "value": 1,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_MAX_WAIT_TO_BOX_SECONDS",
+      "value": 10,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "PRACTICE_OVERTIME_WAITING_NEXT_SESSION_SECONDS",
+      "value": 10,
+      "source": "default",
+      "note": ""
+    },
+    {
+      "key": "QUALIFY_YEAR",
+      "value": 2024,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_MONTH",
+      "value": 8,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_DAY",
+      "value": 15,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_DURATION_MINUTES",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_HOUR",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_MINUTE",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_TIME_MULTIPLIER",
+      "value": 1,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_MAX_WAIT_TO_BOX_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "QUALIFY_OVERTIME_WAITING_NEXT_SESSION_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_YEAR",
+      "value": 2024,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_MONTH",
+      "value": 8,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_DAY",
+      "value": 15,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_DURATION_MINUTES",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_HOUR",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_MINUTE",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_TIME_MULTIPLIER",
+      "value": 1,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_MAX_WAIT_TO_BOX_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "WARMUP_OVERTIME_WAITING_NEXT_SESSION_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_YEAR",
+      "value": 2024,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_MONTH",
+      "value": 8,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_DAY",
+      "value": 15,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_DURATION_MINUTES",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_HOUR",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_MINUTE",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_TIME_MULTIPLIER",
+      "value": 1,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_MAX_WAIT_TO_BOX_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    },
+    {
+      "key": "RACE_OVERTIME_WAITING_NEXT_SESSION_SECONDS",
+      "value": 0,
+      "source": "ignored_by_event_type",
+      "note": "ignored because EVENT_TYPE=GameModeType_PRACTICE"
+    }
+  ],
+  "warnings": [],
+  "server_summary": {
+    "server_name": "AC EVO Nordschleife Trackday",
+    "ports": {
+      "tcp": 9700,
+      "udp": 9700,
+      "http": 8080
+    },
+    "max_players": 20,
+    "cycle": true,
+    "launch_path": "content\\\\data\\\\practice.seasondefinition",
+    "car_count": 100
+  },
+  "season_summary": {
+    "game_type": "GameModeType_PRACTICE",
+    "track": "Nurburgring|Touristenfahrten|Touristenfahrten Time Attack|19300",
+    "weather": "GameModeSelectionWeatherType_CLEAR",
+    "weather_behaviour": "GameModeSelectionWeatherBehaviour_STATIC",
+    "initial_grip": "InitialGrip_OPTIMUM",
+    "durations": {
+      "practice": 10800,
+      "qualify": 0,
+      "warmup": 0,
+      "race": 0
+    }
+  }
+}
