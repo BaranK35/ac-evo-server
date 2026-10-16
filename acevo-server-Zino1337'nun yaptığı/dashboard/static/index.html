@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AC EVO Server Dashboard</title>
+    <link rel="stylesheet" href="/static/theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Mono&family=Material+Symbols+Outlined&display=swap"
+    />
+    <style>
+      .material-symbols-outlined,
+      md-icon {
+        font-family: "Material Symbols Outlined";
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <script type="module" src="/static/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>AC EVO Server Dashboard</h1>
+      <div class="topbar-statuses">
+        <span id="status-chip" class="status-chip unknown">
+          <span class="status-dot"></span><span id="status-text">…</span>
+        </span>
+        <button id="config-priority" class="config-priority hidden" type="button" aria-live="polite">
+          <span id="config-priority-icon" class="config-priority-icon" aria-hidden="true">⇄</span>
+          <span class="config-priority-prefix">Config:</span>
+          <strong id="config-priority-value">ENV</strong>
+        </button>
+      </div>
+      <span class="spacer"></span>
+      <div class="controls">
+        <div class="primary-controls">
+          <md-filled-tonal-button id="btn-start">Start</md-filled-tonal-button>
+          <md-outlined-button id="btn-stop">Stop</md-outlined-button>
+          <md-outlined-button id="btn-restart">Restart</md-outlined-button>
+          <md-outlined-button id="btn-save">Save</md-outlined-button>
+          <md-filled-button id="btn-save-apply">Save &amp; Apply</md-filled-button>
+          <label class="theme-toggle">
+            <md-icon>dark_mode</md-icon>
+            <md-switch id="theme-switch" aria-label="Dark mode"></md-switch>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tabbar" aria-label="Dashboard sections">
+      <md-tabs id="main-tabs">
+        <md-primary-tab id="tab-config" active>Configuration</md-primary-tab>
+        <md-primary-tab id="tab-mods">Mods</md-primary-tab>
+        <md-primary-tab id="tab-live">Live</md-primary-tab>
+        <md-primary-tab id="tab-logs">Logs</md-primary-tab>
+        <md-primary-tab id="tab-profiles">Profiles</md-primary-tab>
+      </md-tabs>
+    </nav>
+
+    <main id="config-view" class="layout">
+      <section id="col-server">
+        <div class="card" data-mobile-section="server-info">
+          <h2>Server Info</h2>
+          <div id="server-fields" class="field-grid"></div>
+        </div>
+        <div class="card" data-mobile-section="advanced">
+          <h2>Advanced</h2>
+          <div id="advanced-fields" class="field-grid"></div>
+          <div class="cars-meta">Config file: <span id="config-path">—</span></div>
+        </div>
+      </section>
+
+      <section id="col-event">
+        <div class="card" data-mobile-section="event-settings">
+          <h2>Event Settings</h2>
+          <div id="event-fields" class="field-grid"></div>
+        </div>
+        <div class="card" data-mobile-section="cars">
+          <h2>Cars</h2>
+          <div id="cars-container"></div>
+        </div>
+      </section>
+
+      <section id="col-sessions">
+        <div id="sessions-container"></div>
+        <div class="card" data-mobile-section="preview-validation">
+          <h2>Preview &amp; Validation</h2>
+          <div id="preview" class="preview"></div>
+        </div>
+      </section>
+    </main>
+
+    <main id="mods-view" class="mods-view hidden">
+      <section class="card mods-card">
+        <h2>Mods</h2>
+        <ol class="mods-help">
+          <li>
+            Install or delete mods here. If the game server is running, the dashboard asks before stopping it
+            automatically.
+          </li>
+          <li>
+            Upload one <code>.kspkg</code> here, or copy it to <code>/data/mods</code>. The car and its variants are
+            detected automatically.
+          </li>
+          <li>To use the new cars, open the Configuration tab and select them under Cars.</li>
+          <li>
+            As a client, every driver must copy the exact same <code>.kspkg</code> into their own game at
+            <code>%USERPROFILE%\Saved Games\ACE\mods</code>. AC EVO rejects missing or different files.
+          </li>
+        </ol>
+
+        <div class="mods-table" role="table" aria-label="Installed mods">
+          <div class="mods-row mods-head" role="row">
+            <span>File</span>
+            <span>Car</span>
+            <span>Variants</span>
+            <span>Size</span>
+            <span>Status</span>
+            <span></span>
+          </div>
+          <div id="mods-rows" role="rowgroup"></div>
+        </div>
+        <div id="mods-summary" class="mods-summary">Loading mods…</div>
+
+        <div class="mods-install">
+          <h3>Install a mod</h3>
+          <div class="mods-upload-row">
+            <label class="mods-file-picker">
+              <input id="mod-file" type="file" accept=".kspkg" />
+              <span id="mod-file-name">Choose a .kspkg file…</span>
+            </label>
+            <md-filled-button id="btn-mod-upload" disabled>
+              <md-icon slot="icon">upload</md-icon>
+              Install
+            </md-filled-button>
+          </div>
+          <div id="mod-upload-progress" class="mod-upload-progress hidden" aria-label="Upload progress">
+            <div id="mod-upload-progress-bar"></div>
+          </div>
+          <div id="mod-upload-label" class="mod-upload-label"></div>
+        </div>
+      </section>
+    </main>
+
+    <main id="live-view" class="live-view hidden">
+      <section class="live-summary" aria-label="Live server summary">
+        <div class="card live-stat">
+          <span>Connected</span>
+          <strong id="live-connected">0</strong>
+        </div>
+        <div class="card live-stat">
+          <span>Slots</span>
+          <strong id="live-slots">—</strong>
+        </div>
+      </section>
+      <section class="card live-panel">
+        <div class="live-header">
+          <h2>Live Session</h2>
+          <span id="live-updated" class="live-updated"></span>
+        </div>
+        <div id="live-message" class="live-message">Loading live data…</div>
+        <div id="live-drivers" class="live-drivers hidden" role="table" aria-label="Connected drivers">
+          <div class="live-driver-row live-driver-head" role="row">
+            <span>#</span>
+            <span>Driver</span>
+            <span>Car</span>
+            <span>Laps</span>
+            <span>Best</span>
+            <span>Last</span>
+          </div>
+          <div id="live-driver-rows" role="rowgroup"></div>
+        </div>
+      </section>
+    </main>
+
+    <main id="profiles-view" class="profiles-view hidden">
+      <section class="card profiles-card">
+        <h2>Configuration profiles</h2>
+        <p class="profiles-hint">
+          Save the current configuration under a name, or load a saved one into the editor. Loading does not apply it —
+          use <strong>Save &amp; Apply</strong> afterwards to run it.
+        </p>
+        <div class="profiles-save-row">
+          <md-outlined-text-field id="profile-name" label="Profile name"></md-outlined-text-field>
+          <md-filled-tonal-button id="btn-profile-save">Save current config</md-filled-tonal-button>
+        </div>
+        <div id="profiles-list" class="profiles-list"></div>
+      </section>
+    </main>
+
+    <main id="logs-view" class="logs-view hidden">
+      <section id="logs-panel" class="logs-panel card">
+        <div class="logs-header">
+          <h2>Server Logs</h2>
+          <div class="logs-actions">
+            <md-outlined-select id="log-tail-preset" label="Tail lines">
+              <md-select-option value="200" selected>200</md-select-option>
+              <md-select-option value="500">500</md-select-option>
+              <md-select-option value="1000">1000</md-select-option>
+              <md-select-option value="5000">5000</md-select-option>
+              <md-select-option value="custom">Custom</md-select-option>
+            </md-outlined-select>
+            <md-outlined-text-field
+              id="log-tail-custom"
+              class="log-tail-custom hidden"
+              label="Custom lines"
+              type="number"
+              min="1"
+              value="200"
+            ></md-outlined-text-field>
+            <md-icon-button id="btn-log-refresh" aria-label="Refresh logs" title="Refresh logs">
+              <md-icon>refresh</md-icon>
+            </md-icon-button>
+            <md-icon-button id="btn-copy-logs" aria-label="Copy logs" title="Copy logs">
+              <md-icon>content_copy</md-icon>
+            </md-icon-button>
+            <md-icon-button id="btn-download-logs" aria-label="Download logs" title="Download logs">
+              <md-icon>download</md-icon>
+            </md-icon-button>
+          </div>
+        </div>
+        <div id="logs-output" class="logs-output">(logs appear here when the server is running)</div>
+      </section>
+    </main>
+
+    <md-dialog id="confirm-dialog">
+      <div slot="headline" id="confirm-headline">Confirm</div>
+      <div slot="content" id="confirm-message"></div>
+      <div slot="actions">
+        <md-text-button id="confirm-cancel">Cancel</md-text-button>
+        <md-filled-button id="confirm-ok">Confirm</md-filled-button>
+      </div>
+    </md-dialog>
+
+    <div id="toast" class="toast"></div>
+  </body>
+</html>
