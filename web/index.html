@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>EVOX Server Manager</title>
+<link rel="stylesheet" href="style.css?v=3.3.0">
+<style>
+  .app.nosidebar { grid-template-columns: 1fr !important; }
+  .app.nosidebar .sidebar { display: none !important; }
+</style>
+</head>
+<body>
+<div id="app" class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand" title="EVOX Dedicated Server Manager">
+      <svg class="brand-logo" viewBox="0 0 64 64" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="evox-flame" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff3b30"/>
+            <stop offset="55%" stop-color="#ff8c00"/>
+            <stop offset="100%" stop-color="#ffd60a"/>
+          </linearGradient>
+          <linearGradient id="evox-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1a1e2b"/>
+            <stop offset="100%" stop-color="#0a0d14"/>
+          </linearGradient>
+          <filter id="evox-glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#ff4a36" flood-opacity="0.45"/>
+          </filter>
+        </defs>
+        <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#evox-dark)" stroke="url(#evox-flame)" stroke-width="2" filter="url(#evox-glow)"/>
+        <line x1="10" y1="18" x2="54" y2="18" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+        <line x1="10" y1="46" x2="54" y2="46" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+        <path d="M15 16H34C37.5 16 39 18 39 20.5C39 23 37 24.5 34 25H23V27H32C34.5 27 36 28.5 36 30.5C36 32.5 34.5 34 32 34H23V39H35C38 39 40 41 40 43.5C40 46 38 48 35 48H15V16Z" fill="url(#evox-flame)"/>
+        <path d="M33 16L48 48H41L26 16H33Z" fill="#ffffff" fill-opacity="0.95"/>
+        <circle cx="48" cy="18" r="3" fill="#ffd60a"/>
+      </svg>
+      <div class="brand-text">
+        <b>EVO<span class="brand-x">X</span></b>
+        <span class="brand-sub"><i class="brand-dot"></i>SERVER MANAGER</span>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="side-foot"><div id="runstat" class="runstat"><i></i><span>Çalışan sunucu yok</span></div><small id="ver"></small></div>
+  </aside>
+  <main id="view" class="view"></main>
+</div>
+<div id="dropveil" class="dropveil"><div><div class="dropicon"></div><h2>Modu buraya bırakın</h2><p>Pist ve araç modları (.kspkg, .zip, .7z veya klasör) otomatik algılanır</p></div></div>
+<div id="toasts" class="toasts"></div>
+<div id="modal-root"></div>
+<script src="js/core.js?v=3.3.0"></script>
+<script src="js/servers.js?v=3.3.0"></script>
+<script src="js/mods.js?v=3.3.0"></script>
+<script src="js/setup.js?v=3.3.0"></script>
+<script src="js/app.js?v=3.3.0"></script>
+</body>
+</html>
